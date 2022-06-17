@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #562EFF;
+    height: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo img{
+    width: 40.42px;
+    height: 51px;
+}
+body{
+    background-color: #f3f1ff;
+    display: flex;
+    justify-content: center;
+}
+
+/* ============Top- Players============= */
+.players {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 0 50px;
+    padding-bottom: 35px;
+}
+.players h1 {
+    color: #562EFF;
+    font-size: 24px;
+    margin-left: 25px;
+    padding-top: 33px;
+}
+.players-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.players-container{
+    
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 30px;
+    
+}
+.players-profile img{
+    width: 56px;
+    height: 56px;
+    margin-right: 10px;
+}
+.players-profile h3{
+    font-weight: 500;
+    font-size: 18px;
+    
+
+}
+/*  */
+
+hr {
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
+.blogs{
+    display: flex;
+    justify-content: center;
+}
+.blogs img{
+    width: 180px;
+}
+.blog-container{
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    grid-row-gap: 26px;
+}
+.information h4{
+    
+    margin-left: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.information p{
+    width: 170px;
+    margin-left: 10px;
+    color: #9F9F9F;
+}
+.information span{
+    color: #562EFF;
+}
+.top-blog-heading{
+    color: #562EFF;
+    font-size: 24px;
+    margin-left: 25px;
+    padding-top: 30px;
+}
+/*  */
+.courses{
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.course{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.courses-cart img{
+    width: 224px;
+    height: 104px;
+}
+.courses-cart h3 {
+    font-weight: 500;
+    font-size: 20.0336px;
+    margin: 0px 0;
+}
+.courses-cart p{
+    color: #ED6B4F;
+    margin: 7.17px 0;
+}
+.star-rating i{
+    color: #FFC014;
+   
+    
+}
+.bottom{
+    display: flex;
+    
+    
+}
+.duration{
+    background-color: #ffe4e8;
+    color: #ff4a60;
+    display: block;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+.course-heading h1{
+   
+    color: #562EFF;
+    font-size: 24px;
+    margin-left: 25px;
+    
+}
