@@ -1,0 +1,62 @@
+/* Mobile Devices */
+
+@media screen and (max-width: 992px) {
+    .players-container{
+        display: grid;
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+       
+        
+    }
+    .players h1{
+        text-align: center;
+    }
+
+    .blog-container{
+        grid-template:repeat(1,1fr)/ repeat(1,1fr);
+    }
+
+    .course{
+       width: 100%;
+       display: flex;
+       padding: 0 40px;
+       flex-wrap: wrap;
+    }
+    .course-heading{
+        text-align: center;
+    }
+    .courses-cart{
+       margin: 0 15px;
+    }
+    
+
+.courses {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+}
+
+@media screen and (max-width: 688px) {
+    .players-container{
+        display: grid;
+        grid-template: repeat(1, 1fr) / repeat(1, 1fr); }
+
+    .players-profile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .course{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .courses-cart{
+        margin: 20px 0;
+     }
+}
+  
+/* Tablet Devices */
+/* PC Devices */
